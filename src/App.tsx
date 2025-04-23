@@ -24,39 +24,39 @@ const riskCards: RiskCard[] = [
   {
     id: 'operational',
     title: 'Operational Disruption',
-    description: 'Manage legal operations during system outages and service disruptions',
+    description: 'Manage marketing operations during system outages and service disruptions',
     icon: <Building2 className="h-12 w-12 text-red-500" />,
-    impact: 'Legal Operations and Client Services',
-    scenario: 'As Legal Division Lead, you discover that ransomware has encrypted critical legal case management systems, client files, and court document repositories. The attack has halted all legal operations, affecting case management and client services. You must quickly address the disruption while maintaining legal obligations and client confidentiality.',
+    impact: 'Marketing Operations and Customer Services',
+    scenario: 'As Marketing Division Lead, you discover that ransomware has encrypted critical marketing campaign management systems, customer databases, and content repositories. The attack has halted all marketing operations, affecting campaign management and customer engagement. You must quickly address the disruption while maintaining customer trust and service continuity.',
     questions: [
       {
-        question: 'What should be your first priority when legal operations are disrupted?',
+        question: 'What should be your first priority when marketing operations are disrupted?',
         options: [
-          'Continue normal legal proceedings',
-          'Assess impact on active cases and client obligations',
-          'Contact all clients immediately',
+          'Continue normal marketing proceedings',
+          'Assess impact on active campaigns and customer obligations',
+          'Contact all customers immediately',
           'Start system restoration'
         ],
         correctAnswer: 1,
-        explanation: 'Assessing impact on active cases helps prioritize critical legal obligations while understanding the scope of disruption.',
+        explanation: 'Assessing impact on active campaigns helps prioritize critical marketing obligations while understanding the scope of disruption.',
         hints: [
-          'Consider legal obligations',
-          'Think about client impact'
+          'Consider marketing obligations',
+          'Think about customer impact'
         ]
       },
       {
-        question: 'How should you prioritize legal operations recovery?',
+        question: 'How should you prioritize marketing operations recovery?',
         options: [
           'Recover all systems simultaneously',
-          'Start with non-critical cases',
-          'Prioritize based on court deadlines and client impact',
+          'Start with non-critical campaigns',
+          'Prioritize based on campaign deadlines and customer impact',
           'Wait for complete investigation'
         ],
         correctAnswer: 2,
-        explanation: 'Prioritizing based on court deadlines ensures critical legal obligations are met first.',
+        explanation: 'Prioritizing based on campaign deadlines ensures critical marketing obligations are met first.',
         hints: [
-          'Consider court deadlines',
-          'Think about client impact'
+          'Consider campaign deadlines',
+          'Think about customer impact'
         ]
       },
       {
@@ -64,18 +64,18 @@ const riskCards: RiskCard[] = [
         options: [
           'Regular email system',
           'Public announcement system',
-          'Secure legal communication channels',
+          'Secure marketing communication channels',
           'Social media platforms'
         ],
         correctAnswer: 2,
-        explanation: 'Secure legal communication channels ensure client confidentiality while maintaining necessary communications.',
+        explanation: 'Secure marketing communication channels ensure customer confidentiality while maintaining necessary communications.',
         hints: [
-          'Consider attorney-client privilege',
+          'Consider marketing-customer privilege',
           'Think about confidentiality requirements'
         ]
       },
       {
-        question: 'How should access to legal documents be managed during the incident?',
+        question: 'How should access to marketing documents be managed during the incident?',
         options: [
           'Maintain all access levels',
           'Revoke all access',
@@ -83,24 +83,24 @@ const riskCards: RiskCard[] = [
           'Delegate access decisions'
         ],
         correctAnswer: 2,
-        explanation: 'Strict access controls with monitoring help maintain client confidentiality while enabling necessary legal work.',
+        explanation: 'Strict access controls with monitoring help maintain customer confidentiality while enabling necessary marketing work.',
         hints: [
           'Consider confidentiality requirements',
-          'Think about legal obligations'
+          'Think about marketing obligations'
         ]
       },
       {
-        question: 'What documentation should be maintained for legal purposes?',
+        question: 'What documentation should be maintained for marketing purposes?',
         options: [
           'Only final resolution steps',
           'No documentation needed',
-          'Comprehensive incident timeline and legal impact assessment',
+          'Comprehensive incident timeline and marketing impact assessment',
           'Only system logs'
         ],
         correctAnswer: 2,
-        explanation: 'Comprehensive documentation helps track the incident and may be required for legal proceedings.',
+        explanation: 'Comprehensive documentation helps track the incident and may be required for marketing proceedings.',
         hints: [
-          'Consider legal requirements',
+          'Consider marketing requirements',
           'Think about potential litigation'
         ]
       }
@@ -109,24 +109,24 @@ const riskCards: RiskCard[] = [
   {
     id: 'ransom',
     title: 'Ransom Pay',
-    description: 'Handle ransom demands and legal considerations',
+    description: 'Handle ransom demands and marketing considerations',
     icon: <Banknote className="h-12 w-12 text-yellow-500" />,
-    impact: 'Legal Implications and Data Protection',
-    scenario: 'The attackers have demanded a significant ransom payment in cryptocurrency to provide decryption keys for sensitive legal documents and client files. You must evaluate the ransom demand while considering legal obligations, client confidentiality, and regulatory requirements.',
+    impact: 'Marketing Implications and Data Protection',
+    scenario: 'The attackers have demanded a significant ransom payment in cryptocurrency to provide decryption keys for sensitive marketing data and customer information. You must evaluate the ransom demand while considering customer trust, brand reputation, and regulatory requirements.',
     questions: [
       {
         question: 'What is your first step in evaluating the ransom demand?',
         options: [
           'Calculate payment amount',
-          'Assess legal obligations and regulatory requirements',
+          'Assess marketing obligations and regulatory requirements',
           'Prepare cryptocurrency wallet',
           'Contact attackers immediately'
         ],
         correctAnswer: 1,
-        explanation: 'Assessing legal obligations helps determine appropriate response while maintaining compliance.',
+        explanation: 'Assessing marketing obligations helps determine appropriate response while maintaining compliance.',
         hints: [
           'Consider regulatory requirements',
-          'Think about legal obligations'
+          'Think about marketing obligations'
         ]
       },
       {
@@ -138,25 +138,25 @@ const riskCards: RiskCard[] = [
           'Only record payment details'
         ],
         correctAnswer: 2,
-        explanation: 'Complete documentation protects the organization and may be required for legal proceedings.',
+        explanation: 'Complete documentation protects the organization and may be required for marketing proceedings.',
         hints: [
-          'Consider legal requirements',
+          'Consider marketing requirements',
           'Think about potential litigation'
         ]
       },
       {
         question: 'What factors should NOT primarily influence payment decision?',
         options: [
-          'Legal obligations',
+          'Marketing obligations',
           'Regulatory requirements',
           'Ransom amount alone',
-          'Client impact'
+          'Customer impact'
         ],
         correctAnswer: 2,
         explanation: 'The ransom amount alone should not drive the decision; consider all legal and regulatory factors.',
         hints: [
           'Consider multiple factors',
-          'Think about legal implications'
+          'Think about marketing implications'
         ]
       },
       {
@@ -171,7 +171,7 @@ const riskCards: RiskCard[] = [
         explanation: 'A thorough legal assessment helps make an informed payment decision.',
         hints: [
           'Consider regulatory requirements',
-          'Think about legal obligations'
+          'Think about marketing obligations'
         ]
       },
       {
@@ -183,7 +183,7 @@ const riskCards: RiskCard[] = [
           'Make counter-offers'
         ],
         correctAnswer: 2,
-        explanation: 'Following legal procedures ensures compliance with regulations and protects client interests.',
+        explanation: 'Following legal procedures ensures compliance with regulations and protects customer interests.',
         hints: [
           'Consider legal protocols',
           'Think about regulatory requirements'
@@ -194,10 +194,10 @@ const riskCards: RiskCard[] = [
   {
     id: 'financial',
     title: 'Financial Loss',
-    description: 'Assessment and management of legal costs and liabilities',
+    description: 'Assessment and management of marketing costs and liabilities',
     icon: <AlertTriangle className="h-12 w-12 text-orange-500" />,
-    impact: 'Legal Costs and Liability Management',
-    scenario: 'The ransomware incident has caused significant financial impact through legal operations downtime, potential client claims, and regulatory penalties. You need to assess and manage these financial implications while maintaining legal obligations.',
+    impact: 'Marketing Costs and Liability Management',
+    scenario: 'The ransomware incident has caused significant financial impact through marketing operations downtime, potential customer claims, and regulatory penalties. You need to assess and manage these financial implications while maintaining customer trust and brand reputation.',
     questions: [
       {
         question: 'How should you assess the financial impact?',
@@ -282,7 +282,7 @@ const riskCards: RiskCard[] = [
     description: 'System restoration and data recovery procedures',
     icon: <AlertTriangle className="h-12 w-12 text-orange-500" />,
     impact: 'System Restoration and Data Integrity',
-    scenario: 'As IT Security Lead, you must coordinate the technical recovery of affected systems while ensuring data integrity and preventing re-infection. The recovery process must be carefully planned and executed to minimize business disruption.',
+    scenario: 'As Marketing IT Security Lead, you must coordinate the technical recovery of affected marketing systems while ensuring data integrity and preventing re-infection. The recovery process must be carefully planned and executed to minimize business disruption and maintain customer trust.',
     questions: [
       {
         question: 'How should you approach system recovery?',
@@ -364,10 +364,10 @@ const riskCards: RiskCard[] = [
   {
     id: 'reputation',
     title: 'Reputation Damage',
-    description: 'Manage legal reputation and client trust',
+    description: 'Manage marketing reputation and customer trust',
     icon: <Users className="h-12 w-12 text-blue-500" />,
-    impact: 'Client Trust and Legal Standing',
-    scenario: "The ransomware attack has compromised sensitive client information and disrupted legal services. News of the incident is spreading, potentially damaging the legal division's reputation and client trust. You must manage the situation while protecting client interests and maintaining professional obligations.",
+    impact: 'Customer Trust and Brand Standing',
+    scenario: "The ransomware attack has compromised sensitive customer information and disrupted marketing services. News of the incident is spreading, potentially damaging the marketing division's reputation and customer trust. You must manage the situation while protecting customer interests and maintaining brand integrity.",
     questions: [
       {
         question: 'What should be your first communication priority?',
@@ -449,10 +449,10 @@ const riskCards: RiskCard[] = [
   {
     id: 'regulatory',
     title: 'Regulatory Compliance',
-    description: 'Ensure compliance with legal and regulatory requirements',
+    description: 'Ensure compliance with marketing and regulatory requirements',
     icon: <Shield className="h-12 w-12 text-green-500" />,
-    impact: 'Legal Compliance and Reporting',
-    scenario: 'The ransomware attack has potentially compromised client confidentiality and affected legal operations. You must ensure compliance with legal regulations, reporting requirements, and professional obligations while managing the incident.',
+    impact: 'Marketing Compliance and Reporting',
+    scenario: 'The ransomware attack has potentially compromised customer data and affected marketing operations. You must ensure compliance with marketing regulations, reporting requirements, and customer protection obligations while managing the incident.',
     questions: [
       {
         question: 'What is your first regulatory compliance step?',
@@ -534,10 +534,10 @@ const riskCards: RiskCard[] = [
   {
     id: 'data',
     title: 'Data Protection',
-    description: 'Safeguard legal documents and client information',
+    description: 'Safeguard marketing data and customer information',
     icon: <Lock className="h-12 w-12 text-purple-500" />,
-    impact: 'Client Confidentiality and Data Security',
-    scenario: 'The ransomware attack has potentially compromised sensitive legal documents and client information. You must ensure the protection of privileged communications and confidential data while maintaining legal obligations and client trust.',
+    impact: 'Customer Privacy and Data Security',
+    scenario: 'The ransomware attack has potentially compromised sensitive marketing data and customer information. You must ensure the protection of customer data and marketing assets while maintaining customer trust and regulatory compliance.',
     questions: [
       {
         question: 'What is your first data protection priority?',
@@ -619,10 +619,10 @@ const riskCards: RiskCard[] = [
   {
     id: 'recovery',
     title: 'Recovery Planning',
-    description: 'Develop legal recovery and continuity strategies',
+    description: 'Develop marketing recovery and continuity strategies',
     icon: <CheckCircle className="h-12 w-12 text-teal-500" />,
-    impact: 'Legal Service Continuity',
-    scenario: 'Following the ransomware attack, you must develop and implement recovery plans that ensure the continuity of legal services while maintaining client confidentiality and meeting legal obligations. The focus is on restoring critical legal operations and protecting client interests.',
+    impact: 'Marketing Service Continuity',
+    scenario: 'Following the ransomware attack, you must develop and implement recovery plans that ensure the continuity of marketing services while maintaining customer trust and meeting regulatory requirements. The focus is on restoring critical marketing operations and protecting customer interests.',
     questions: [
       {
         question: 'What should be the first recovery priority?',
@@ -840,7 +840,7 @@ function App() {
               <div className="text-center">
                 <Shield className="h-20 w-20 text-blue-500 dark:text-blue-600 mx-auto mb-8" />
                 <h1 className="text-5xl font-bold text-slate-900 dark:text-white mb-6">
-                  Legal Division - Ransomware Attack Scenario
+                  Marketing - Ransomware Attack Scenario
                 </h1>
                 <p className="text-xl text-slate-700 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
                   The Security Operations Center (SOC) has detected a sophisticated ransomware attack targeting critical IT systems. 
