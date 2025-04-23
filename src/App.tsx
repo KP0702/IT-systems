@@ -24,39 +24,39 @@ const riskCards: RiskCard[] = [
   {
     id: 'operational',
     title: 'Operational Disruption',
-    description: 'Manage marketing operations during system outages and service disruptions',
+    description: 'Manage security operations during system outages and service disruptions',
     icon: <Building2 className="h-12 w-12 text-red-500" />,
-    impact: 'Marketing Operations and Customer Services',
-    scenario: 'As Marketing Division Lead, you discover that ransomware has encrypted critical marketing campaign management systems, customer databases, and content repositories. The attack has halted all marketing operations, affecting campaign management and customer engagement. You must quickly address the disruption while maintaining customer trust and service continuity.',
+    impact: 'Security Operations and Incident Response',
+    scenario: 'As Security Operations Center (SOC) Lead, you discover that ransomware has encrypted critical security monitoring systems, incident response tools, and security logs. The attack has halted all security operations, affecting threat detection and incident response capabilities. You must quickly address the disruption while maintaining security posture and service continuity.',
     questions: [
       {
-        question: 'What should be your first priority when marketing operations are disrupted?',
+        question: 'What should be your first priority when security operations are disrupted?',
         options: [
-          'Continue normal marketing proceedings',
-          'Assess impact on active campaigns and customer obligations',
-          'Contact all customers immediately',
+          'Continue normal security monitoring',
+          'Assess impact on active security incidents and critical systems',
+          'Contact all stakeholders immediately',
           'Start system restoration'
         ],
         correctAnswer: 1,
-        explanation: 'Assessing impact on active campaigns helps prioritize critical marketing obligations while understanding the scope of disruption.',
+        explanation: 'Assessing impact on active security incidents helps prioritize critical security obligations while understanding the scope of disruption.',
         hints: [
-          'Consider marketing obligations',
-          'Think about customer impact'
+          'Consider security obligations',
+          'Think about system impact'
         ]
       },
       {
-        question: 'How should you prioritize marketing operations recovery?',
+        question: 'How should you prioritize security operations recovery?',
         options: [
           'Recover all systems simultaneously',
-          'Start with non-critical campaigns',
-          'Prioritize based on campaign deadlines and customer impact',
+          'Start with non-critical security tools',
+          'Prioritize based on security incident severity and system criticality',
           'Wait for complete investigation'
         ],
         correctAnswer: 2,
-        explanation: 'Prioritizing based on campaign deadlines ensures critical marketing obligations are met first.',
+        explanation: 'Prioritizing based on security incident severity ensures critical security obligations are met first.',
         hints: [
-          'Consider campaign deadlines',
-          'Think about customer impact'
+          'Consider incident severity',
+          'Think about system criticality'
         ]
       },
       {
@@ -64,18 +64,18 @@ const riskCards: RiskCard[] = [
         options: [
           'Regular email system',
           'Public announcement system',
-          'Secure marketing communication channels',
+          'Secure incident response communication channels',
           'Social media platforms'
         ],
         correctAnswer: 2,
-        explanation: 'Secure marketing communication channels ensure customer confidentiality while maintaining necessary communications.',
+        explanation: 'Secure incident response communication channels ensure confidentiality while maintaining necessary communications.',
         hints: [
-          'Consider marketing-customer privilege',
+          'Consider security protocols',
           'Think about confidentiality requirements'
         ]
       },
       {
-        question: 'How should access to marketing documents be managed during the incident?',
+        question: 'How should access to security systems be managed during the incident?',
         options: [
           'Maintain all access levels',
           'Revoke all access',
@@ -83,25 +83,25 @@ const riskCards: RiskCard[] = [
           'Delegate access decisions'
         ],
         correctAnswer: 2,
-        explanation: 'Strict access controls with monitoring help maintain customer confidentiality while enabling necessary marketing work.',
+        explanation: 'Strict access controls with monitoring help maintain security while enabling necessary incident response work.',
         hints: [
-          'Consider confidentiality requirements',
-          'Think about marketing obligations'
+          'Consider security requirements',
+          'Think about incident response needs'
         ]
       },
       {
-        question: 'What documentation should be maintained for marketing purposes?',
+        question: 'What documentation should be maintained for security purposes?',
         options: [
           'Only final resolution steps',
           'No documentation needed',
-          'Comprehensive incident timeline and marketing impact assessment',
+          'Comprehensive incident timeline and security impact assessment',
           'Only system logs'
         ],
         correctAnswer: 2,
-        explanation: 'Comprehensive documentation helps track the incident and may be required for marketing proceedings.',
+        explanation: 'Comprehensive documentation helps track the incident and may be required for security investigations.',
         hints: [
-          'Consider marketing requirements',
-          'Think about potential litigation'
+          'Consider security requirements',
+          'Think about incident investigation'
         ]
       }
     ]
@@ -109,24 +109,24 @@ const riskCards: RiskCard[] = [
   {
     id: 'ransom',
     title: 'Ransom Pay',
-    description: 'Handle ransom demands and marketing considerations',
+    description: 'Handle ransom demands and security considerations',
     icon: <Banknote className="h-12 w-12 text-yellow-500" />,
-    impact: 'Marketing Implications and Data Protection',
-    scenario: 'The attackers have demanded a significant ransom payment in cryptocurrency to provide decryption keys for sensitive marketing data and customer information. You must evaluate the ransom demand while considering customer trust, brand reputation, and regulatory requirements.',
+    impact: 'Security Implications and Data Protection',
+    scenario: 'The attackers have demanded a significant ransom payment in cryptocurrency to provide decryption keys for sensitive security data and system information. You must evaluate the ransom demand while considering security posture, system integrity, and regulatory requirements.',
     questions: [
       {
         question: 'What is your first step in evaluating the ransom demand?',
         options: [
           'Calculate payment amount',
-          'Assess marketing obligations and regulatory requirements',
+          'Assess security obligations and regulatory requirements',
           'Prepare cryptocurrency wallet',
           'Contact attackers immediately'
         ],
         correctAnswer: 1,
-        explanation: 'Assessing marketing obligations helps determine appropriate response while maintaining compliance.',
+        explanation: 'Assessing security obligations helps determine appropriate response while maintaining compliance.',
         hints: [
           'Consider regulatory requirements',
-          'Think about marketing obligations'
+          'Think about security obligations'
         ]
       },
       {
@@ -134,44 +134,44 @@ const riskCards: RiskCard[] = [
         options: [
           'Screenshot ransom note only',
           'Ignore documentation',
-          'Maintain comprehensive legal decision records',
+          'Maintain comprehensive security decision records',
           'Only record payment details'
         ],
         correctAnswer: 2,
-        explanation: 'Complete documentation protects the organization and may be required for marketing proceedings.',
+        explanation: 'Complete documentation protects the organization and may be required for security investigations.',
         hints: [
-          'Consider marketing requirements',
-          'Think about potential litigation'
+          'Consider security requirements',
+          'Think about potential investigations'
         ]
       },
       {
         question: 'What factors should NOT primarily influence payment decision?',
         options: [
-          'Marketing obligations',
+          'Security obligations',
           'Regulatory requirements',
           'Ransom amount alone',
-          'Customer impact'
+          'System impact'
         ],
         correctAnswer: 2,
-        explanation: 'The ransom amount alone should not drive the decision; consider all legal and regulatory factors.',
+        explanation: 'The ransom amount alone should not drive the decision; consider all security and regulatory factors.',
         hints: [
           'Consider multiple factors',
-          'Think about marketing implications'
+          'Think about security implications'
         ]
       },
       {
-        question: 'What legal preparations are needed before any payment decision?',
+        question: 'What security preparations are needed before any payment decision?',
         options: [
           'Just cryptocurrency setup',
-          'Complete legal and regulatory assessment',
+          'Complete security and regulatory assessment',
           'Draft public statement',
           'Budget allocation only'
         ],
         correctAnswer: 1,
-        explanation: 'A thorough legal assessment helps make an informed payment decision.',
+        explanation: 'A thorough security assessment helps make an informed payment decision.',
         hints: [
           'Consider regulatory requirements',
-          'Think about marketing obligations'
+          'Think about security obligations'
         ]
       },
       {
@@ -179,13 +179,13 @@ const riskCards: RiskCard[] = [
         options: [
           'Accept first demand',
           'Ignore all demands',
-          'Follow established legal procedures',
+          'Follow established security procedures',
           'Make counter-offers'
         ],
         correctAnswer: 2,
-        explanation: 'Following legal procedures ensures compliance with regulations and protects customer interests.',
+        explanation: 'Following security procedures ensures compliance with regulations and protects system integrity.',
         hints: [
-          'Consider legal protocols',
+          'Consider security protocols',
           'Think about regulatory requirements'
         ]
       }
@@ -194,21 +194,21 @@ const riskCards: RiskCard[] = [
   {
     id: 'financial',
     title: 'Financial Loss',
-    description: 'Assessment and management of marketing costs and liabilities',
+    description: 'Assessment and management of security costs and liabilities',
     icon: <AlertTriangle className="h-12 w-12 text-orange-500" />,
-    impact: 'Marketing Costs and Liability Management',
-    scenario: 'The ransomware incident has caused significant financial impact through marketing operations downtime, potential customer claims, and regulatory penalties. You need to assess and manage these financial implications while maintaining customer trust and brand reputation.',
+    impact: 'Security Costs and Liability Management',
+    scenario: 'The ransomware incident has caused significant financial impact through security operations downtime, potential system damage, and regulatory penalties. You need to assess and manage these financial implications while maintaining security posture and system integrity.',
     questions: [
       {
         question: 'How should you assess the financial impact?',
         options: [
           'Only direct costs',
           'Wait until resolution',
-          'Comprehensive legal and financial analysis',
+          'Comprehensive security and financial analysis',
           'Basic damage estimate'
         ],
         correctAnswer: 2,
-        explanation: 'A comprehensive analysis helps understand full financial and legal implications.',
+        explanation: 'A comprehensive analysis helps understand full financial and security implications.',
         hints: [
           'Consider all cost types',
           'Think about potential liabilities'
@@ -219,13 +219,13 @@ const riskCards: RiskCard[] = [
         options: [
           'Only system repairs',
           'Just overtime costs',
-          'All direct costs, potential claims, and regulatory penalties',
+          'All direct costs, potential damages, and regulatory penalties',
           'Hardware costs only'
         ],
         correctAnswer: 2,
         explanation: 'Including all potential costs ensures accurate impact assessment.',
         hints: [
-          'Consider potential claims',
+          'Consider potential damages',
           'Think about regulatory penalties'
         ]
       },
@@ -234,44 +234,44 @@ const riskCards: RiskCard[] = [
         options: [
           'Lowest cost options',
           'Most expensive solutions',
-          'Based on legal obligations and client impact',
+          'Based on security obligations and system impact',
           'Equal distribution'
         ],
         correctAnswer: 2,
-        explanation: 'Prioritizing based on legal obligations ensures compliance and client protection.',
+        explanation: 'Prioritizing based on security obligations ensures compliance and system protection.',
         hints: [
-          'Consider legal requirements',
-          'Think about client impact'
+          'Consider security requirements',
+          'Think about system impact'
         ]
       },
       {
-        question: 'What financial documentation is crucial for legal purposes?',
+        question: 'What financial documentation is crucial for security purposes?',
         options: [
           'Only invoices',
           'Just payment records',
-          'Comprehensive financial impact and legal cost documentation',
+          'Comprehensive financial impact and security cost documentation',
           'Basic expense tracking'
         ],
         correctAnswer: 2,
-        explanation: 'Complete documentation helps track costs and may be required for legal proceedings.',
+        explanation: 'Complete documentation helps track costs and may be required for security investigations.',
         hints: [
-          'Consider legal requirements',
-          'Think about potential claims'
+          'Consider security requirements',
+          'Think about potential investigations'
         ]
       },
       {
-        question: 'How should potential client claims be handled?',
+        question: 'How should potential system damages be handled?',
         options: [
-          'Ignore until formal claim',
+          'Ignore until formal assessment',
           'Proactively assess and document',
-          'Wait for client complaints',
-          'Assume no claims will occur'
+          'Wait for system complaints',
+          'Assume no damages will occur'
         ],
         correctAnswer: 1,
-        explanation: 'Proactive assessment helps prepare for potential claims and protect the organization.',
+        explanation: 'Proactive assessment helps prepare for potential damages and protect the organization.',
         hints: [
-          'Consider client impact',
-          'Think about legal protection'
+          'Consider system impact',
+          'Think about security protection'
         ]
       }
     ]
@@ -282,18 +282,18 @@ const riskCards: RiskCard[] = [
     description: 'System restoration and data recovery procedures',
     icon: <AlertTriangle className="h-12 w-12 text-orange-500" />,
     impact: 'System Restoration and Data Integrity',
-    scenario: 'As Marketing IT Security Lead, you must coordinate the technical recovery of affected marketing systems while ensuring data integrity and preventing re-infection. The recovery process must be carefully planned and executed to minimize business disruption and maintain customer trust.',
+    scenario: 'As Security Operations Lead, you must coordinate the technical recovery of affected security systems while ensuring data integrity and preventing re-infection. The recovery process must be carefully planned and executed to minimize security disruption and maintain system integrity.',
     questions: [
       {
         question: 'How should you approach system recovery?',
         options: [
           'Restore from the most recent backup',
           'Wait until the incident is over',
-          'Follow a structured recovery plan with validation steps',
+          'Follow a structured security recovery plan with validation steps',
           'Focus only on critical systems'
         ],
         correctAnswer: 2,
-        explanation: 'A structured recovery plan ensures systematic and validated restoration.',
+        explanation: 'A structured security recovery plan ensures systematic and validated restoration.',
         hints: [
           'Think about recovery procedures',
           'Consider validation requirements'
@@ -304,11 +304,11 @@ const riskCards: RiskCard[] = [
         options: [
           'Only system restoration steps',
           'Just data recovery procedures',
-          'Comprehensive recovery procedures with validation and testing',
+          'Comprehensive security recovery procedures with validation and testing',
           'Only security updates'
         ],
         correctAnswer: 2,
-        explanation: 'A complete recovery plan ensures all aspects of system restoration are covered.',
+        explanation: 'A complete security recovery plan ensures all aspects of system restoration are covered.',
         hints: [
           'Consider all recovery aspects',
           'Think about validation steps'
@@ -319,11 +319,11 @@ const riskCards: RiskCard[] = [
         options: [
           'Disable monitoring',
           'Continue normal monitoring',
-          'Implement enhanced monitoring with alerts',
+          'Implement enhanced security monitoring with alerts',
           'Reduce monitoring to save resources'
         ],
         correctAnswer: 2,
-        explanation: 'Enhanced monitoring helps detect any issues during recovery.',
+        explanation: 'Enhanced security monitoring helps detect any issues during recovery.',
         hints: [
           'Consider system stability',
           'Think about early warning systems'
@@ -348,12 +348,12 @@ const riskCards: RiskCard[] = [
         question: 'How should you communicate technical status to stakeholders?',
         options: [
           'Provide only positive information',
-          'Share complete technical status with recovery progress',
+          'Share complete security status with recovery progress',
           'Delay communication until full recovery',
           'Delegate to the IT team'
         ],
         correctAnswer: 1,
-        explanation: 'Sharing complete technical status helps stakeholders understand the recovery progress.',
+        explanation: 'Sharing complete security status helps stakeholders understand the recovery progress.',
         hints: [
           'Consider stakeholder needs',
           'Think about transparency'
@@ -364,28 +364,28 @@ const riskCards: RiskCard[] = [
   {
     id: 'reputation',
     title: 'Reputation Damage',
-    description: 'Manage marketing reputation and customer trust',
+    description: 'Manage security reputation and stakeholder trust',
     icon: <Users className="h-12 w-12 text-blue-500" />,
-    impact: 'Customer Trust and Brand Standing',
-    scenario: "The ransomware attack has compromised sensitive customer information and disrupted marketing services. News of the incident is spreading, potentially damaging the marketing division's reputation and customer trust. You must manage the situation while protecting customer interests and maintaining brand integrity.",
+    impact: 'Stakeholder Trust and Security Standing',
+    scenario: "The ransomware attack has compromised sensitive security information and disrupted security services. News of the incident is spreading, potentially damaging the security team's reputation and stakeholder trust. You must manage the situation while protecting system integrity and maintaining security posture.",
     questions: [
       {
         question: 'What should be your first communication priority?',
         options: [
           'Public statement to media',
-          'Direct communication with affected clients',
+          'Direct communication with affected stakeholders',
           'Internal staff announcement',
           'Social media update'
         ],
         correctAnswer: 1,
-        explanation: 'Direct client communication maintains trust and fulfills legal obligations.',
+        explanation: 'Direct stakeholder communication maintains trust and fulfills security obligations.',
         hints: [
-          'Consider client obligations',
+          'Consider stakeholder obligations',
           'Think about confidentiality'
         ]
       },
       {
-        question: 'How should client concerns be addressed?',
+        question: 'How should stakeholder concerns be addressed?',
         options: [
           'Generic responses',
           'Individual case-by-case assessment',
@@ -393,25 +393,25 @@ const riskCards: RiskCard[] = [
           'Defer to management'
         ],
         correctAnswer: 1,
-        explanation: "Individual assessment ensures proper handling of each client's situation.",
+        explanation: "Individual assessment ensures proper handling of each stakeholder's situation.",
         hints: [
-          'Consider client impact',
-          'Think about legal obligations'
+          'Consider stakeholder impact',
+          'Think about security obligations'
         ]
       },
       {
-        question: 'What information should be included in client communications?',
+        question: 'What information should be included in stakeholder communications?',
         options: [
           'Full technical details',
-          'Only necessary legal information',
+          'Only necessary security information',
           'Complete incident report',
           'No information'
         ],
         correctAnswer: 1,
-        explanation: 'Providing necessary legal information maintains transparency while protecting interests.',
+        explanation: 'Providing necessary security information maintains transparency while protecting interests.',
         hints: [
-          'Consider legal requirements',
-          'Think about client needs'
+          'Consider security requirements',
+          'Think about stakeholder needs'
         ]
       },
       {
@@ -419,29 +419,29 @@ const riskCards: RiskCard[] = [
         options: [
           'Full disclosure',
           'No comment',
-          'Through legal communications team',
+          'Through security communications team',
           'Direct responses'
         ],
         correctAnswer: 2,
-        explanation: 'Legal communications team ensures consistent and appropriate messaging.',
+        explanation: 'Security communications team ensures consistent and appropriate messaging.',
         hints: [
-          'Consider legal implications',
-          'Think about client confidentiality'
+          'Consider security implications',
+          'Think about stakeholder confidentiality'
         ]
       },
       {
         question: 'What reputation recovery steps are most important?',
         options: [
-          'Marketing campaign',
-          'Demonstrating legal compliance and client protection',
+          'Security campaign',
+          'Demonstrating security compliance and system protection',
           'Price reductions',
           'Staff changes'
         ],
         correctAnswer: 1,
         explanation: 'Demonstrating compliance and protection rebuilds trust effectively.',
         hints: [
-          'Consider legal obligations',
-          'Think about client trust'
+          'Consider security obligations',
+          'Think about stakeholder trust'
         ]
       }
     ]
@@ -449,10 +449,10 @@ const riskCards: RiskCard[] = [
   {
     id: 'regulatory',
     title: 'Regulatory Compliance',
-    description: 'Ensure compliance with marketing and regulatory requirements',
+    description: 'Ensure compliance with security and regulatory requirements',
     icon: <Shield className="h-12 w-12 text-green-500" />,
-    impact: 'Marketing Compliance and Reporting',
-    scenario: 'The ransomware attack has potentially compromised customer data and affected marketing operations. You must ensure compliance with marketing regulations, reporting requirements, and customer protection obligations while managing the incident.',
+    impact: 'Security Compliance and Reporting',
+    scenario: 'The ransomware attack has potentially compromised security data and affected security operations. You must ensure compliance with security regulations, reporting requirements, and system protection obligations while managing the incident.',
     questions: [
       {
         question: 'What is your first regulatory compliance step?',
@@ -473,14 +473,14 @@ const riskCards: RiskCard[] = [
         question: 'How should regulatory documentation be prepared?',
         options: [
           'Basic summary',
-          'Comprehensive legal and technical documentation',
+          'Comprehensive security and technical documentation',
           'Informal notes',
           'Verbal report'
         ],
         correctAnswer: 1,
         explanation: 'Comprehensive documentation ensures proper regulatory compliance.',
         hints: [
-          'Consider legal requirements',
+          'Consider security requirements',
           'Think about documentation standards'
         ]
       },
@@ -495,7 +495,7 @@ const riskCards: RiskCard[] = [
         correctAnswer: 1,
         explanation: 'Focusing on mandatory notifications ensures proper compliance.',
         hints: [
-          'Consider legal requirements',
+          'Consider security requirements',
           'Think about notification obligations'
         ]
       },
@@ -503,14 +503,14 @@ const riskCards: RiskCard[] = [
         question: 'How should regulatory interactions be managed?',
         options: [
           'Direct communication',
-          'Through legal counsel',
+          'Through security counsel',
           'Informal discussions',
           'Written responses only'
         ],
         correctAnswer: 1,
-        explanation: 'Legal counsel ensures proper handling of regulatory matters.',
+        explanation: 'Security counsel ensures proper handling of regulatory matters.',
         hints: [
-          'Consider legal implications',
+          'Consider security implications',
           'Think about professional standards'
         ]
       },
@@ -518,7 +518,7 @@ const riskCards: RiskCard[] = [
         question: 'What compliance monitoring should be implemented?',
         options: [
           'Basic checks',
-          'Enhanced legal and regulatory monitoring',
+          'Enhanced security and regulatory monitoring',
           'No changes needed',
           'External audit only'
         ],
@@ -534,51 +534,51 @@ const riskCards: RiskCard[] = [
   {
     id: 'data',
     title: 'Data Protection',
-    description: 'Safeguard marketing data and customer information',
+    description: 'Safeguard security data and system information',
     icon: <Lock className="h-12 w-12 text-purple-500" />,
-    impact: 'Customer Privacy and Data Security',
-    scenario: 'The ransomware attack has potentially compromised sensitive marketing data and customer information. You must ensure the protection of customer data and marketing assets while maintaining customer trust and regulatory compliance.',
+    impact: 'System Privacy and Data Security',
+    scenario: 'The ransomware attack has potentially compromised sensitive security data and system information. You must ensure the protection of security data and system assets while maintaining system integrity and regulatory compliance.',
     questions: [
       {
         question: 'What is your first data protection priority?',
         options: [
           'System restoration',
-          'Assess data exposure and legal implications',
-          'Contact all clients',
+          'Assess data exposure and security implications',
+          'Contact all stakeholders',
           'Public announcement'
         ],
         correctAnswer: 1,
         explanation: 'Assessing exposure helps determine necessary protective measures.',
         hints: [
-          'Consider client confidentiality',
-          'Think about legal obligations'
+          'Consider system confidentiality',
+          'Think about security obligations'
         ]
       },
       {
         question: 'How should compromised data be handled?',
         options: [
           'Ignore if encrypted',
-          'Comprehensive legal assessment and notification',
+          'Comprehensive security assessment and notification',
           'Basic cleanup',
           'System reset'
         ],
         correctAnswer: 1,
         explanation: 'Comprehensive assessment ensures proper handling of compromised data.',
         hints: [
-          'Consider legal requirements',
-          'Think about client impact'
+          'Consider security requirements',
+          'Think about system impact'
         ]
       },
       {
         question: 'What data protection measures should be implemented?',
         options: [
           'Basic security',
-          'Enhanced legal data protection controls',
+          'Enhanced security data protection controls',
           'No changes needed',
           'External monitoring only'
         ],
         correctAnswer: 1,
-        explanation: 'Enhanced controls help protect sensitive legal information.',
+        explanation: 'Enhanced controls help protect sensitive security information.',
         hints: [
           'Consider confidentiality requirements',
           'Think about data protection'
@@ -588,14 +588,14 @@ const riskCards: RiskCard[] = [
         question: 'How should data access be managed?',
         options: [
           'Open access',
-          'Strict legal need-to-know basis',
+          'Strict security need-to-know basis',
           'Department-level access',
           'No restrictions'
         ],
         correctAnswer: 1,
         explanation: 'Need-to-know basis maintains proper confidentiality.',
         hints: [
-          'Consider attorney-client privilege',
+          'Consider security protocols',
           'Think about access controls'
         ]
       },
@@ -603,14 +603,14 @@ const riskCards: RiskCard[] = [
         question: 'What documentation is needed for data protection?',
         options: [
           'Basic logs',
-          'Comprehensive legal data protection records',
+          'Comprehensive security data protection records',
           'No documentation',
           'System reports only'
         ],
         correctAnswer: 1,
-        explanation: 'Comprehensive records support legal compliance and protection.',
+        explanation: 'Comprehensive records support security compliance and protection.',
         hints: [
-          'Consider legal requirements',
+          'Consider security requirements',
           'Think about documentation needs'
         ]
       }
@@ -619,53 +619,53 @@ const riskCards: RiskCard[] = [
   {
     id: 'recovery',
     title: 'Recovery Planning',
-    description: 'Develop marketing recovery and continuity strategies',
+    description: 'Develop security recovery and continuity strategies',
     icon: <CheckCircle className="h-12 w-12 text-teal-500" />,
-    impact: 'Marketing Service Continuity',
-    scenario: 'Following the ransomware attack, you must develop and implement recovery plans that ensure the continuity of marketing services while maintaining customer trust and meeting regulatory requirements. The focus is on restoring critical marketing operations and protecting customer interests.',
+    impact: 'Security Service Continuity',
+    scenario: 'Following the ransomware attack, you must develop and implement recovery plans that ensure the continuity of security services while maintaining system integrity and meeting regulatory requirements. The focus is on restoring critical security operations and protecting system interests.',
     questions: [
       {
         question: 'What should be the first recovery priority?',
         options: [
           'All systems',
-          'Critical legal operations and client services',
+          'Critical security operations and system services',
           'Non-essential services',
           'External systems'
         ],
         correctAnswer: 1,
-        explanation: 'Focusing on critical operations ensures essential legal services continue.',
+        explanation: 'Focusing on critical operations ensures essential security services continue.',
         hints: [
-          'Consider legal obligations',
-          'Think about client impact'
+          'Consider security obligations',
+          'Think about system impact'
         ]
       },
       {
         question: 'How should recovery resources be allocated?',
         options: [
           'Equal distribution',
-          'Based on legal priorities and client impact',
+          'Based on security priorities and system impact',
           'First-come-first-served',
           'External priority'
         ],
         correctAnswer: 1,
-        explanation: 'Priority-based allocation ensures critical legal needs are met.',
+        explanation: 'Priority-based allocation ensures critical security needs are met.',
         hints: [
-          'Consider legal requirements',
-          'Think about client impact'
+          'Consider security requirements',
+          'Think about system impact'
         ]
       },
       {
         question: 'What recovery documentation is essential?',
         options: [
           'Basic notes',
-          'Comprehensive legal recovery plans',
+          'Comprehensive security recovery plans',
           'No documentation',
           'System logs only'
         ],
         correctAnswer: 1,
-        explanation: 'Comprehensive plans ensure proper legal service recovery.',
+        explanation: 'Comprehensive plans ensure proper security service recovery.',
         hints: [
-          'Consider legal requirements',
+          'Consider security requirements',
           'Think about recovery needs'
         ]
       },
@@ -673,14 +673,14 @@ const riskCards: RiskCard[] = [
         question: 'How should recovery progress be communicated?',
         options: [
           'Public updates',
-          'Targeted legal client communications',
+          'Targeted security stakeholder communications',
           'No updates',
           'Social media'
         ],
         correctAnswer: 1,
-        explanation: 'Targeted communications maintain client trust and legal obligations.',
+        explanation: 'Targeted communications maintain stakeholder trust and security obligations.',
         hints: [
-          'Consider client needs',
+          'Consider stakeholder needs',
           'Think about confidentiality'
         ]
       },
@@ -688,14 +688,14 @@ const riskCards: RiskCard[] = [
         question: 'What recovery validation is required?',
         options: [
           'Basic check',
-          'Comprehensive legal and operational validation',
+          'Comprehensive security and operational validation',
           'No validation',
           'External audit only'
         ],
         correctAnswer: 1,
-        explanation: 'Comprehensive validation ensures proper legal service restoration.',
+        explanation: 'Comprehensive validation ensures proper security service restoration.',
         hints: [
-          'Consider legal requirements',
+          'Consider security requirements',
           'Think about service quality'
         ]
       }
@@ -840,7 +840,7 @@ function App() {
               <div className="text-center">
                 <Shield className="h-20 w-20 text-blue-500 dark:text-blue-600 mx-auto mb-8" />
                 <h1 className="text-5xl font-bold text-slate-900 dark:text-white mb-6">
-                  Marketing - Ransomware Attack Scenario
+                  Security - Ransomware Attack Scenario
                 </h1>
                 <p className="text-xl text-slate-700 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
                   The Security Operations Center (SOC) has detected a sophisticated ransomware attack targeting critical IT systems. 
